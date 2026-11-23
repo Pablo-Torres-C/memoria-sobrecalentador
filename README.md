@@ -1,4 +1,3 @@
-# memoria-sobrecalentador
 # Sintonización del lazo de temperatura del sobrecalentador
 
 Códigos de la Memoria de Título N°585, "Sintonización de los sistemas de control de
@@ -9,7 +8,7 @@ Pablo Torres Cifuentes, Departamento de Ingeniería Mecánica, Universidad de Co
 
 | Archivo | Qué hace | Sección del informe |
 |---|---|---|
-| `ees/calibracion_estacionaria_EES.txt` | Calibración del modelo físico en régimen permanente: balances, propiedades y conductancias | 4.2 |
+| `EES/Parte_estacionaria_P_Oficial.EES` | Calibración del modelo físico en régimen permanente: balances, propiedades y conductancias | 4.2 |
 | `matlab/diagnostico_3nov.m` | Relación entre FTI 302 y FTI 304, y balance de masa de la caldera | 3.2.4 y 3.3.1 |
 | `matlab/identificacion_paso1.m` | Prepara los datos del ensayo de pulsos: entrada, salida y ventanas | 4.6.1 |
 | `matlab/identificacion_paso2.m` | Ajusta los modelos de primer y segundo orden con retardo y los valida | 4.6.2 |
@@ -22,7 +21,7 @@ Pablo Torres Cifuentes, Departamento de Ingeniería Mecánica, Universidad de Co
 
 ## Requisitos
 
-- MATLAB R20XX o posterior, con System Identification Toolbox, Control System Toolbox y Simulink.
+- MATLAB R2023 o posterior, con System Identification Toolbox, Control System Toolbox y Simulink.
 - EES, para la calibración en régimen permanente.
 
 ## Orden de ejecución
