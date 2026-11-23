@@ -21,7 +21,7 @@ Pablo Torres Cifuentes, Departamento de Ingeniería Mecánica, Universidad de Co
 
 ## Requisitos
 
-- MATLAB R2023 o posterior, con System Identification Toolbox, Control System Toolbox y Simulink.
+- MATLAB R2023a o posterior, con System Identification Toolbox, Control System Toolbox y Simulink.
 - EES, para la calibración en régimen permanente.
 
 ## Orden de ejecución
